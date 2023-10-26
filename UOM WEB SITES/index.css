@@ -1,0 +1,137 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            
+        }
+        
+
+        header {
+            background-image: url(IMAGES/SL2.jpg);
+            width: auto;
+            padding: 200px 17px;
+            text-align: center;
+            color: white;
+            font-size: 55px;
+            background-repeat: no-repeat;
+             
+        }
+
+
+#home{
+    font-size: 30px;
+}
+        /*-------------horizonal images------------*/
+
+.kodfun-galeri{
+    display: flex;
+    height: 25rem;
+    gap: 1rem;
+}
+
+.kodfun-galeri>div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.kodfun-galeri> div:hover{
+    flex: 5;
+}
+        nav {
+            background-color: #2c3e50;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            
+            z-index: 1000; /* Adjust the z-index as needed */
+        }
+        
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            
+            z-index: 1000; /* Adjust the z-index as needed */
+        }
+
+        section {
+            padding: 0px 30px 10px ;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+
+
+
+#home .para_box .main_para {
+   text-align: justify;
+    font-size: 25px;
+}
+
+
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #me .hero-btn{
+            z-index: 1;
+            display: flex;
+            max-width: 250px;
+            margin: 100px auto;
+            text-decoration: none;
+            color: #000000;
+            border: 5px solid#b53b3b;
+            font-weight: bold;
+            padding: 22px 34px;
+            font-size: 15px;
+            background: transparent;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+        } 
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    

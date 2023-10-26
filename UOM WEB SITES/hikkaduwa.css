@@ -1,0 +1,141 @@
+*{
+    margin: 20;
+    padding: 20;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b0b9ba;
+    background-image: url(IMAGES/64.1.jpg);
+   
+    background-repeat: no-repeat;
+}
+#home{
+    background-image: url('IMAGES/11.jpg');
+    background-repeat: repeat;
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+ }
+
+ nav {
+    background-color: #2c3e50;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+section {
+    padding: 0px 30px 10px ;
+}
+
+/*----------container------------------*/
+
+.container {
+    width: 90%;
+    margin: 60px auto;
+}
+
+#home .text-box {
+    width: 100%;
+    
+    color: #c91313;
+    text-align:center;
+    margin: 80px auto 0 auto;
+    
+}
+
+#home .text-box h1{
+    font-size: 110px;
+    font-family: 'Kaushan Script',cursive;
+    align-items: center;
+}
+
+#home .text-box p{
+    margin: 10px 0 40px;
+    font-size: 80px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+#home .para_box {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+
+
+.subtopic{
+    font-size: 25px;
+    transform: scale(x);
+    text-align: center;
+ 
+}
+
+
+
+.list{
+    font-size: 25px;
+    text-align: left;
+    margin: 20px 350px 40px; 
+}
+
+
+
+#home .hero-btn{
+    z-index: 1;
+    display: flex;
+    max-width: 250px;
+    margin: 100px auto;
+    text-decoration: none;
+    color: #000000;
+    border: 5px solid#b53b3b;
+    font-weight: bold;
+    padding: 22px 34px;
+    font-size: 35px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+} 
+
+@media only screen and (max-width: 992px) {
+
+    .list {
+        margin: 40px 30px 50px 190px;
+    }
+
+    
+    }
+
+
+
+
+

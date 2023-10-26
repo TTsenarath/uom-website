@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="footer.css" >
+    <link rel="stylesheet" href="index.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Sri Lanka Turtles</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sri Lanka & Sea Turtles</h1><br>
+    </header>
+    <nav>
+        <a href="turtle categories.html">
+<br><br>
+
+        <li class="active"><a href="WEB.HTML">HOME</a>
+            <a href="turtle categories.html">TURTLE CATEGORIES </a>
+            <a href="hikkaduwa.html">HIKKADUWA HATCHERY </a>
+            <a href="donate.html">DONATE</a>
+            <a href="aboutus.html">ABOUT US </a>
+            <br><br>
+    </nav>
+
+   
+    <body id="me">
+    <section id="home">
+        <h2>Welcome to Sri Lanka</h2>
+        
+        
+        <hr style="height: 5px;border-width:0;color:rgb(255, 255, 255);background-color:rgb(255, 255, 255)">
+                    <div class="kodfun-galeri">
+                        <div style="background-image: url(IMAGES/1.jpg);"></div>
+                        <div style="background-image: url(IMAGES/1587116604909.jpg);"></div>
+                        <div style="background-image: url(IMAGES/5c3619ac01c0ea18b64ca9e4.webp);"></div>
+                        <div style="background-image: url(IMAGES/colombo-sri-lanka.jpg);"></div>
+                        <div style="background-image: url(IMAGES/images.jpg);"></div>
+                        <div style="background-image: url(IMAGES/Screen-Shot-2015-02-02-at-17.20.30.png);"></div>
+                        <div style="background-image: url(IMAGES/tourism-sri-lanka-top-25-hotels-tourismsrilanka-galle-fortress-resort-spa.jpg);"></div>
+        
+                    </div>
+            <hr style="height: 5px;border-width:0;color:rgb(255, 255, 255);background-color:rgb(255, 255, 255)">
+          
+
+        <div class="para_box">
+            <p class="main_para"> Sri Lanka, a nation on the Indian Ocean, is well-known for its
+                 diverse animals and abundant biodiversity.  Sri Lanka's turtle population is one
+                  of the country's most recognizable and adored species of animal. 
+                There are five different kinds of sea turtles that can be found in Sri Lanka. 
+                In marine ecology, these turtles are significant.<br><br>
+                Sri Lankan turtle populations face a variety of problems, including poaching, 
+                unintentional capture in fishing nets, pollution, habitat destruction,
+                and changes in the climate, despite their ecological significance and their endangered 
+                status. To save these priceless and rare creatures and assure their existence 
+                for future generations, conservation measures are currently under progress.
+                Sri Lanka's rich history, varied landscapes, vibrant culture, and friendly people 
+                are what attract tourists and give the country its value. It attracts tourists
+                 looking for unusual experiences since it offers a blend of the natural beauty,
+                  cultural heritage, and adventure. 
+            </p>  
+        </div>
+
+
+        <div class="last1">
+            <a href="https://www.lonelyplanet.com/sri-lanka"
+            class="donate-btn"> More information about suitable solutions and conservations to protect Sea Turtles </a>
+        </div>    
+    </section>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #photo {
+            width: 300px;
+            border: 20px solid #333;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+
+    <img id="photo" src="IMAGES/thumbnail.jpg" alt="Your Photo">
+  
+    <button onclick="changeBorderColor()">Change Border Color</button>
+
+    <script>
+        function changeBorderColor() {
+            var photo = document.getElementById('photo');
+            var randomColor = getRandomColor();
+            photo.style.borderColor = randomColor;
+        }
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+
+    <a href="turtle categories.html" class="hero-btn">
+        Sri Lankan Sea Turtles </a>
+
+
+    <footer>
+        <div class="footer-content">
+            <h3>SL Turtle</h3>
+            Let's Protect Our country & It's Values
+            <ul class="Socials">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square"></i></a>
+            </ul>
+        </div>
+            <div class="footer-bottom">
+               <p>Copyright &copy; 2023 SL Turtle. designed by <span>Tsenarath</span></p>
+            </div>
+    </div>
+    </footer>
+
+
+    <script>
+        function showMessage() {
+            alert("Thanks for reaching out! I'll get back to you soon.");
+        }
+    </script>
+
+</body>
+</html>
